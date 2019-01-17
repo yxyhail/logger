@@ -34,4 +34,30 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
 
+ext {
+    bintrayRepo = 'library'
+    bintrayName = 'logger'
+
+    publishedGroupId = 'com.yxyhail'
+    libraryName = 'logger'
+    artifact = "logger"
+    userOrg = 'yxyhail'
+
+
+    libraryDescription = 'A Simple Logger.'
+
+    siteUrl = 'https://github.com/yxyhail/logger'
+    gitUrl = 'https://github.com/yxyhail/logger.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'yxyhail'
+    developerName = 'yang xinyu'
+    developerEmail = 'yxyhail@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 apply from: 'publish.gradle'
