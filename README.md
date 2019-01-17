@@ -1,6 +1,10 @@
 # logger
 simple logger
 
+Download
+--------
+    implementation 'com.yxyhail:logger:1.0.0'
+
 License
 -------
     Copyright 2019 yxyhail

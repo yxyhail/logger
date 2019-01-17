@@ -190,9 +190,9 @@ install {
                 }
                 developers {
                     developer {
-                        id developerId
-                        name developerName
-                        email developerEmail
+                        id project.hasProperty('developerId')
+                        name project.hasProperty('developerName')
+                        email project.hasProperty('developerEmail')
                     }
                 }
                 scm {
